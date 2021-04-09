@@ -1,5 +1,5 @@
  <?php  
- $connect = mysqli_connect("localhost", "root", "", "prime");  
+ $connect = mysqli_connect("localhost", "root", "root", "prime");
  $query = "SELECT amount_hold, count(*) as number FROM goal";  
  $result = mysqli_query($connect, $query);  
  ?>  

@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","","prime");
+$con=mysqli_connect("localhost","root","root","prime");
 // Check connection
 if (mysqli_connect_errno())
 {
